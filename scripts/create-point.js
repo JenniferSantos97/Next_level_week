@@ -54,7 +54,7 @@ for(const item of itemsToCollect){
 }
 
 
-const collectedItems = document.querySelector("imput[name=items]")
+const collectedItems = document.querySelector("input[name=items]");
 
 let selectedItems = [] 
 
@@ -80,5 +80,5 @@ function handleSelectedItem(event){
     }else{
         selectedItems.push(itemId)
     }
-    collectedItems.value = selectedItems
+    collectedItems.value = selectedItems 
 }
